@@ -3,12 +3,12 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [februarKereset, setFebruarKereset] = useState('334864');
-  const [februarKm, setFebruarKm] = useState('1120');
-  const [februarKiszallitasok, setFebruarKiszallitasok] = useState('275');
-  const [marciusKereset, setMarciusKereset] = useState('341415');
-  const [marciusKm, setMarciusKm] = useState('1347');
-  const [marciusKiszallitasok, setMarciusKiszallitasok] = useState('297');
+  const [februarKereset, setFebruarKereset] = useState('');
+  const [februarKm, setFebruarKm] = useState('');
+  const [februarKiszallitasok, setFebruarKiszallitasok] = useState('');
+  const [marciusKereset, setMarciusKereset] = useState('');
+  const [marciusKm, setMarciusKm] = useState('');
+  const [marciusKiszallitasok, setMarciusKiszallitasok] = useState('');
   const [eredmenyek, setEredmenyek] = useState(null);
   const [uzenet, setUzenet] = useState(null);
 
