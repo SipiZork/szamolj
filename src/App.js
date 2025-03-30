@@ -74,7 +74,7 @@ Várom visszajelzésüket a fenti problémák kapcsán.
         <div className="input-container">
           <div className="months-container">
             <div className="month-column">
-              <h2>Február</h2>
+              <h2>Első hónap</h2>
               <div className="input-group">
                 <label htmlFor="februar-kereset">Kereset (borravaló és bónuszok nélkül):</label>
                 <input
@@ -105,7 +105,7 @@ Várom visszajelzésüket a fenti problémák kapcsán.
             </div>
 
             <div className="month-column">
-              <h2>Március</h2>
+              <h2>Második hónap</h2>
               <div className="input-group">
                 <label htmlFor="marcius-kereset">Kereset (borravaló nélkül):</label>
                 <input
