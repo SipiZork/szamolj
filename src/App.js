@@ -142,12 +142,12 @@ Várom visszajelzésüket a fenti problémák kapcsán.
           {eredmenyek && (
             <div className="results-container">
               <div className="month-column">
-                <h3>Február eredmények:</h3>
+                <h3>Első havi eredmények:</h3>
                 <p>Átlag címpénz: {eredmenyek.februar.atlagCimpenz.toFixed(0)} Ft/cím</p>
                 <p>Átlag kilométer: {eredmenyek.februar.atlagKm.toFixed(1)} km/cím</p>
               </div>
               <div className="month-column">
-                <h3>Március eredmények:</h3>
+                <h3>Második havi eredmények:</h3>
                 <p>Átlag címpénz: {eredmenyek.marcius.atlagCimpenz.toFixed(0)} Ft/cím</p>
                 <p>Átlag kilométer: {eredmenyek.marcius.atlagKm.toFixed(1)} km/cím</p>
               </div>
